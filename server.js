@@ -7,7 +7,7 @@ connectDb()
 // create a exoress app
 const app = express()
 // setup server port
-const port = process.env.PORT||4000
+const port = process.env.PORT||8080
 
 app.use(bodyParser.json())
 
